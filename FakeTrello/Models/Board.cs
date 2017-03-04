@@ -17,6 +17,8 @@ namespace FakeTrello.Models
         [MaxLength(60)]
         public string URL { get; set; }
 
+        public TrelloUser Owner { get; set; } //Can access the TrelloUser for this board with this reference
+
         public List<List> Lists{ get; set; }
     }
 }

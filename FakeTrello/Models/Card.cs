@@ -16,5 +16,8 @@ namespace FakeTrello.Models
 
         [MaxLength(60)]
         public string Contents { get; set; }
+
+        // Auxillary: given a card instance, return the list it belongs to.
+        public List ListParent { get; set; }
     }
 }

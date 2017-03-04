@@ -13,5 +13,9 @@ namespace FakeTrello.Models
 
         [MaxLength(60)]
         public string Name { get; set; }
+
+        public List<Card> Cards { get; set; }
+
+        public Board BoardParent { get; set; }
     }
 }
