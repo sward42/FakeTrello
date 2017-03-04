@@ -17,4 +17,4 @@
 
 ### Fake Trello ERD
 
-[ERD goes here]
+![Image alt text](./FakeTrello.png)
