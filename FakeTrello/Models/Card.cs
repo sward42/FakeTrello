@@ -19,5 +19,7 @@ namespace FakeTrello.Models
 
         // Auxillary: given a card instance, return the list it belongs to.
         public List ListParent { get; set; }
+
+        public List<TrelloUser> AllUsers { get; set; }
     }
 }

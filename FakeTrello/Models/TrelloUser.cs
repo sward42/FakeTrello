@@ -29,5 +29,7 @@ namespace FakeTrello.Models
         public ApplicationUser BaseUser { get; set; }  // Creates 1 to 1 relationship
 
         public List<Board> Boards { get; set; }  // Creates 1 to many (boards) relationships
+
+        public List<Card> AllCards { get; set; }
     }
 }
